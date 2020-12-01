@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=weather_api
+POSTGRES_USER=MOQfOSjwUVoRszZcGzXVdsYlugYEtjpk
+POSTGRES_PASSWORD=66Z2be1GCoS7kS3kl5X0keqjXcxSRaMoGmB0TYCqA7JZknnLzRO88l8V8qy3GBys
