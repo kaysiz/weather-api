@@ -14,8 +14,8 @@ class WeatherView(APIView):
         if city_weather['cod'] != '404':
             return Response(
                 {
-                    "min_temp": city_weather['main']['temp_min'], "max_temp": city_weather['main']['temp_min'],
-                    "median_tem": "", "average_temp": "", "humidity": city_weather['main']['humidity']
+                    "min_temp": city_weather['main']['temp_min'], "max_temp": city_weather['main']['temp_max'],
+                    "humidity": city_weather['main']['humidity']
                 }
             )
         else:
